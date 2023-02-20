@@ -7,7 +7,6 @@ const button6 = document.querySelector('#click6')
 const button7 = document.querySelector('#click7')
 
 
-
 button1.addEventListener('click', () => {
     this.disable = true
     button1.setAttribute('disabled', 'disabled')
@@ -71,8 +70,15 @@ button7.addEventListener('click', () => {
     div.appendChild(p)
     p.innerHTML = 'botao 7'
 
+
+
+
+
+
+    
 })
 
+//irei deixar o codigo mais limpo em breve
 
 
 
