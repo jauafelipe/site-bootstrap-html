@@ -70,15 +70,6 @@ button7.addEventListener('click', () => {
     div.appendChild(p)
     p.innerHTML = 'botao 7'
 
-
-
-
-
-
-    
 })
 
 //irei deixar o codigo mais limpo em breve
-
-
-

@@ -1,6 +1,6 @@
 body {
-    background: rgb(238, 174, 202);
-    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    background: rgb(0, 255, 250);
+    background: radial-gradient(circle, rgba(0, 255, 250, 1) 0%, rgba(0, 6, 255, 1) 100%);
     background-repeat: no-repeat;
 
 }
@@ -22,6 +22,11 @@ body {
     border-width: 0 100px 10px 50px;
 } */
 .conteudo {
+    border-radius: 25px;
+    
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
     margin-bottom: 30px;
     margin-top: 30px;
     background-color: #fff;
@@ -30,7 +35,18 @@ body {
     margin-bottom: 10px;
 }
 
-.img {}
+
+.img {
+    justify-content: center;
+    border-radius: 25px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
+.img img {
+    border-radius: 20px;
+}
 
 .ClassResponseForm {
     border-radius: 25px;
@@ -44,23 +60,28 @@ body {
 }
 
 .responseForm {
-    width: 500px; 
+    align-items: center;
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
-.responseForm form {
-    padding: 15px;
-}
 
 .responseForm input {
     box-sizing: inherit;
     border: solid 1px;
 }
 
+.responseForm .mb-3 {
+    padding-bottom: 20px;
+
+}
+
 .responseForm button {
+    margin-right: 0;
     margin-bottom: 20px;
 }
 
@@ -71,15 +92,19 @@ body {
 
 
 
-.buttonForm:disabled {
-    color: rgba(164, 65, 65, 0.919);
-}
+
 
 .containerCard {
+    border-radius: 25px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-top: 20px;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    
+    background-color: #fff;
+
 }
 
 .containerCard .card {
@@ -88,12 +113,14 @@ body {
     transition: ease-in 80ms;
     border-radius: 25px;
 
+
 }
 
 
 .card:hover {
     transform: scale(1.03);
 }
+
 .containerCard .card img {
     border-radius: 25px;
 }
@@ -106,15 +133,27 @@ body {
 }
 
 .perguntas {
+    border-radius: 25px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+    background-color: #fff;
+    color: #000000;
     text-align: center;
     justify-content: center;
-    margin-left: 40px;
 }
+
 .perguntas p {
     margin-bottom: 0px;
 }
+.buttonForm:disabled {
+    color: rgba(255, 0, 0, 0.919);
+}
+
 .buttonForm {
     background: none;
-    color: rgb(0, 8, 255);
+    color: rgb(0, 0, 0);
     border: none;
 }
